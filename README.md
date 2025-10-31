@@ -25,29 +25,109 @@ Execute the program using runserver command.
 
 ## PROGRAM
 ```
+<!DOCTYPE html>
 <html>
-    <head>
+<head>
+    <title>Slot Time Table - JAGANNIVASH U M (212224240059)</title>
+</head>
+<body>
+    <IMG SRC="logo.png"HEIGHT="100"WIDTH="750"BORDER=6>
+    <h2>Saveetha Engineering College</h2>
+    <h3>SLOT TIME TABLE - JAGANNIVASH U M (212224240059)</h3>
 
-    </head>
-    <body>
-        <center>
-            <img src="/static/logo.png" width="500">
-        </center>
-        <table border="1" cellpadding="10" align="center" bgcolor="yellow">
-            <caption><h2>Slot Time-Table</h2></caption>
-            <tr><th>Day/Time</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th></tr>
-            <tr><th>8-10</th><td bgcolor="red">Web</td><td>CN</td><td>DBMS</td></tr>
-            <tr><th>10-12</th><td>Web</td><td>CN</td><td>DBMS</td></tr>
-            <tr align="center"><th>12-1</th><td colspan="3">Lunch</td></tr>
-            <tr><th>1-3</th><td>Web</td><td>CN</td><td>DBMS</td></tr>
-            <tr><th>3-5</th><td>Web</td><td>CN</td><td>DBMS</td></tr>
-        </table>
-    </body>
+    <table border="1">
+        <tr BGCOLOR="YELLOW">
+            <th>Day/Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr BGCOLOR="CYAN">
+            <td BGCOLOR="YELLOW">8-10</td>
+            <td></td>
+            <td>FREE SLOT</td>
+            <td></td>
+            <td>PHY</td>
+            <td>CHE</td>
+        </tr>
+        <tr BGCOLOR="CYAN">
+            <td BGCOLOR="YELLOW">10-12</td>
+            <td></td>
+            <td>FWAD</td>
+            <td></td>
+            <td>PHY</td>
+            <td>CHE</td>
+        </tr>
+        </tr>
+        <tr BGCOLOR="CYAN">
+            <td BGCOLOR="YELLOW">12-1</td>
+            <td COLSPAN=5 ALIGN="CENTER">LUNCH</td>
+        </tr>
+        <tr BGCOLOR="CYAN">
+            <td BGCOLOR="YELLOW">1-3</td>
+            <td>FREE SLOT</td>
+            <td>MAT</td>
+            <td>MAT</td>
+            <td>SS</td>
+            <td></td>
+        </tr>
+        <tr BGCOLOR="CYAN">
+            <td BGCOLOR="YELLOW">3-5</td>
+            <td>FREE SLOT</td>
+            <td>GER</td>
+            <td>CHE</td>
+            <td>FWAD</td>
+            <td></td>
+        </tr>
+    </table>
+
+    <h3>Subjects</h3>
+    <table border="1">
+        <tr>
+            <th>S. No.</th>
+            <th>Subject Code</th>
+            <th>Subject Name</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>19AI414</td>
+            <td>Fundamentals of Web Application Development (FWAD)</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>19EN612</td>
+            <td>German Basic (GER)</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>19PH206</td>
+            <td>Physics for Information Technology (PHY)</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>19CY205</td>
+            <td>Principles of Chemistry in Engineering (CHE)</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>19MA201</td>
+            <td>Calculus and Matrix Algebra (MAT)</td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>19EY701</td>
+            <td>Soft Skills (SS)</td>
+        </tr>
+    </table>
+</body>
 </html>
 ```
 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-10-09 203621.png>)
+<img width="1919" height="1199" alt="Screenshot 2025-10-31 081609" src="https://github.com/user-attachments/assets/3d9a637f-4391-4d7b-89b1-298a63497d53" />
+
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
